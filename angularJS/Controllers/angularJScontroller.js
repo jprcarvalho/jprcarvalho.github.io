@@ -1,4 +1,3 @@
-app.controller('angularJScontroller.js', ['$scope' ,function($scope)  {
-    $scope.thing = 1;
-]
-} );
+app.controller('angularJScontroller' , function($scope) {
+       $scope.test = "123test321";
+});
