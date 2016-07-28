@@ -1,14 +1,16 @@
 <html>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 	<head>
 		<title> Thingy </title>
 		<link rel="stylesheet" type="text/css" href="my.css"/>
 	</head>
 	<body ng-app="angularJS">
-	    <div class = "main" ng-controller="AngularJSController">
+	    <div class = "main" ng-controller="AngularJSController" ng-init="test='Test!'">
             <h1>IO test</h1>
             <p>{{thing}}</p>
+            <p>--->  <span data-ng-bind="test"> </span></p>
 
         </div>
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
 	</body>
 </html>
