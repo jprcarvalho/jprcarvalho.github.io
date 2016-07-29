@@ -1,3 +1,9 @@
 app.controller('angularJScontroller' , function($scope) {
-       $scope.test = "123test321";
+       $scope.Counter = 0;
+       $scope.click = function(){
+            $scope.Counter += 1;
+       }
+        $scope.remove = function(){
+            if($scope.Counter>0){$scope.Counter -= 1;}
+       }
 });

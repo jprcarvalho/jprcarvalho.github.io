@@ -1,10 +1,24 @@
 body{
     font-size:100%;
     background-color:AntiqueWhite;
+    font-family:Calibri, Arial, sams-serif;
 }
 
 .main {
-    font-family:Calibri, Arial, sams-serif;
+
     font-size:2rem;
     text-align:center;
+
+}
+.BigButton {
+    font-size:1.4rem;
+    padding: 1rem;
+    color:white;
+
+}
+.BigButton.Red{
+    background-color:red;
+}
+.BigButton.Green{
+    background-color:#4CAF50;
 }
